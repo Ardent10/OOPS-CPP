@@ -1,3 +1,6 @@
+//Generally constructors are used for initializing variables that are declared
+//in the class  
+
 #include <iostream>
 using namespace std;
 

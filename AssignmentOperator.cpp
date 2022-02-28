@@ -95,12 +95,13 @@ int main(){
 
     char name[9] = "Zakariya";
     h1.setName(name);
-    h1.print();
+    // h1.print();
 
     //use default constructor
     Hero h2(h1);
     // Hero h2 = h1;
-    h2.print();
+    // h2.print();
+    
     h1.name[0] = 'z';
     h1.print();
 

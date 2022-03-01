@@ -1,3 +1,11 @@
+// Destructor is used to deallocate memory allocated to the program.
+// When the class is created the destructor is also created just like constructor.
+
+// No retrun type
+// Same class name
+//  No input parameter
+
+
 #include <iostream>
 #include <string.h>
 using namespace std;
@@ -80,37 +88,31 @@ class   Hero
         strcpy(this->name,name);
     }
 
+
+    ~Hero(){
+        cout<<"Destructor is called"<<endl;
+    }
+
+
 };
 
 int main(){
 
-    //   Hero thomas(24,'A');
-    //   thomas.print(); 
-    //   Hero shelby(thomas);  
-    //   shelby.print();  
-     
-     Hero h1;
-     h1.setHealth(15);
-     h1.setLevel('D');
+    // Static
+    Hero h1;
 
-    char name[9] = "Zakariya";
-    h1.setName(name);
-    // h1.print();
+    // Dynamic
+    Hero *h2 = new Hero();    
 
-    //use default constructor
-    Hero h2(h1);
-    // Hero h2 = h1;
-    // h2.print();
-    
-    h1.name[0] = 'J';
-    
-    h1.print();
-    h2.print();
+    // This gives 3 output 2 for default constructor and 1 for Destructor, why?
+    // This is because the h1 is static whose constructor is called automatically
+    // In case of h2 which is dynamically allocated, the desctructor is called
+    // manually and that is why the destructor is only called once. for the 
+    // statically allocated object.
 
-    // Copy Assignment operator
-    h1= h2;
-    h1.print();
-    h2.print();
+    // Manually calling the destructor
+    delete h2; 
+    // Now the destructor is called twice.
 
 
 

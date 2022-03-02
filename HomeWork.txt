@@ -1,0 +1,9 @@
+Constant keyword
+A fixed keyword that cannot be changed during the lifetime of the program or 
+program execution.
+
+Data member and object creation. 
+
+How it is used in object creation.
+How to create functions
+Initilizations

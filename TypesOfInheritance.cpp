@@ -83,7 +83,7 @@
 
 
 
-// // 2. Multiple Inheritance
+// // 3. Multiple Inheritance
 // #include<iostream>
 // using namespace std;
 
@@ -139,56 +139,104 @@
 
 
 
-// 2. Hierarchical Inheritance
+// 4. Hierarchical Inheritance
+// #include<iostream>
+// using namespace std;
+
+// class A{
+
+//     public:
+
+//     public:
+//     void func1(){
+//         cout<<"Function 1 "<<endl;
+//     }
+
+
+
+// };
+
+// class B: public A {
+    
+//     public:
+
+//     void func2(){
+//         cout<<"Function 2"<<endl;
+//     }
+
+
+// };
+
+// class C: public A{
+
+//     public:
+//     void func3(){
+//         cout<<"Function 3"<<endl;
+//     }
+
+
+// };
+
+
+// int main()
+// {
+//     cout<<endl<<"1";
+//     A obj1;
+//     obj1.func1();
+    
+//     cout<<endl<<"2";
+//     B obj2;
+//     obj2.func1();
+//     obj2.func2();
+    
+//     cout<<endl<<"3";
+//     C obj3;
+//     obj3.func1();
+//     obj3.func3();
+    
+    
+//     // So this will give the output including both the animal class and the human class
+
+// return 0;
+// }
+
+
+// 5. Hybrid Inheritance
 #include<iostream>
 using namespace std;
 
-class Animal{
+class A {
 
     public:
-    int age;
-    int weight;
-
-    public:
-    void voice(){
-        cout<<"Voice: ";
+    A(){
+        cout<<"Inherited from A"<<endl;
     }
-
-
 
 };
 
-class Human {
-    
+class D{
     public:
-    string color;
-
-    public:
-    void speak(){
-        cout<<"Speaking";
+    D(){
+        cout<<"Inherited from D"<<endl;
     }
-
 
 };
 
-class Hybrid: public Animal,public Human{
+class B: public A{
 
+};
 
-
+class C: public A,public D{
 
 };
 
 
 int main()
 {
-    Hybrid h;
-    h.voice();
-    cout<<"Barking"<<endl;
 
-    h.voice();
-    h.speak();    
+    C object;
+    
 
-    // So this will give the output including both the animal class and the human class
-
+    
 return 0;
 }

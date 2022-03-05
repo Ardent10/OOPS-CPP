@@ -30,7 +30,7 @@ class Human{
 
 
 // class child_class_name: access modifier parent_class_name{}; 
-class Male: public Human{
+class Male: private Human{
 
     public:
 
@@ -41,19 +41,42 @@ class Male: public Human{
     }
 
 
+    int getHeight(){
+        return this->height;
+    }
+
+
 };
  
 
 
 int main()
 {
- 
+       /*
     Male m1;
     cout<<"The Age of the Male is: "<<m1.age<<endl;
     cout<<"The Height of the Male is: "<<m1.height<<endl;
     m1.setWeight(22);
     cout<<"The weight of the Male is: "<<m1.weight<<endl;
-    m1.sleep(); 
+    m1.sleep(); */ 
+
+    // public - protected
+    // Male m1;
+    // cout<<"The height of the Male is: "<<m1.getHeight()<<endl;
+    
+    
+    Male m1;
+    // cout<<"The height of the Male is: "<<m1.height<<endl; //inaccessible
+    cout<<"The height of the Male is: "<<m1.getHeight()<<endl;  //inside class is accessible 
+
+
+
+
+
+
+
+
+
 
 return 0;
 }

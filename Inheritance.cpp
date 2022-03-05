@@ -10,7 +10,7 @@ using namespace std;
 
 class Human{
 
-    public:
+    protected:
     int height;
     int weight;
 
@@ -31,7 +31,7 @@ class Human{
 
 // class child_class_name: access modifier parent_class_name{}; 
 class Male: private Human{
-
+ 
     public:
 
     string color;
@@ -42,7 +42,11 @@ class Male: private Human{
 
 
     int getHeight(){
-        return this->height;
+        // private-public is not acessible as it is private at the parent level
+        // protected-private: OK
+        // protected-protected: OK
+
+        return this->height; 
     }
 
 
@@ -67,7 +71,14 @@ int main()
     
     Male m1;
     // cout<<"The height of the Male is: "<<m1.height<<endl; //inaccessible
-    cout<<"The height of the Male is: "<<m1.getHeight()<<endl;  //inside class is accessible 
+    // cout<<"The height of the Male is: "<<m1.getHeight()<<endl;  //inside class is accessible 
+
+    // protected - public
+    // cout<<m1.height<<endl;
+
+    // protected-protected
+    cout<<m1.height<<endl;
+
 
 
 

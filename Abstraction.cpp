@@ -37,8 +37,5 @@ int main()
     obj.set(10,54);
     obj.display();
 
-
-
-
 return 0;
 }

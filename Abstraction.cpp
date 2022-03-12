@@ -35,7 +35,7 @@ int main()
 
     abstraction obj;
     obj.set(10,54);
-    obj.display();
+    obj.display(); 
 
 return 0;
 }

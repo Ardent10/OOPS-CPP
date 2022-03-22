@@ -29,7 +29,6 @@ void Greatest(A x){
    
 }
 
-
 int main()
 {
     A a1;

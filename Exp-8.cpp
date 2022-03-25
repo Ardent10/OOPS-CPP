@@ -15,7 +15,6 @@ class Read{
     friend class Sum;
 };
 
-
 class Sum {
  
   float sum;
@@ -24,7 +23,6 @@ class Sum {
       sum = r.a+r.b;
       cout<<"The sum "<<sum;
   }
- 
 };
 
 int main(){

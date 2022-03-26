@@ -30,8 +30,5 @@ int main()
         Book b2("Orielly' JS");
         cout<<b2.getName()<<endl; 
 
-
-
-
 return 0;
 }

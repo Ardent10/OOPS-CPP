@@ -114,10 +114,6 @@ int main(){
     delete h2; 
     // Now the destructor is called twice.
 
-
-
-
-
   return 0;  
 }
 

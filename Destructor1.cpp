@@ -93,7 +93,6 @@ class   Hero
         cout<<"Destructor is called"<<endl;
     }
 
-
 };
 
 int main(){

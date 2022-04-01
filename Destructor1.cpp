@@ -5,7 +5,6 @@
 // Same class name
 //  No input parameter
 
-
 #include <iostream>
 #include <string.h>
 using namespace std;
@@ -37,7 +36,6 @@ class   Hero
         this->level = level;
         this->health = health;    
     }
-
 
     //Copy constructor
     Hero(Hero& copy ){  // pass by reference
@@ -87,7 +85,6 @@ class   Hero
     void setName(char name[]){
         strcpy(this->name,name);
     }
-
 
     ~Hero(){
         cout<<"Destructor is called"<<endl;

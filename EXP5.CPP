@@ -48,9 +48,6 @@ int main()
     b1.SetValue(n2);
    
     max(a1,b1);
-       
-   
-   
-
+    
 return 0;
 }

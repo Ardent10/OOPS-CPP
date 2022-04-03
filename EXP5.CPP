@@ -33,8 +33,6 @@ void max(A x,B y){
     }
 }
 
-
-
 int main()
 {
     A a1;

@@ -7,7 +7,6 @@ class A{
    public:
    int a;
   
-  
    void SetValue(int i){a = i;}
    friend void max(A x,B y);
 };

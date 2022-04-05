@@ -71,7 +71,6 @@ int main(){
         // cout<<"Health: "<<a.getHealth()<<endl;
 
 
-
         // //dynamic allocation 
         // Hero *b = new Hero;
         // b->setHealth(54,'A');

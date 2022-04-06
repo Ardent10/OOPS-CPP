@@ -4,8 +4,8 @@ class B;
 
 class A{
    
-   public:
    int a;
+   public:
   
    void SetValue(int i){a = i;}
    friend void max(A x,B y);
@@ -13,8 +13,8 @@ class A{
 
 class B{
    
-    public:
     int b;
+    public:
     void SetValue(int j){b=j;}
     friend void max(A x,B y);
      

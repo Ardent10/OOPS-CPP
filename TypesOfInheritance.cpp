@@ -118,8 +118,6 @@
 // class Hybrid: public Animal,public Human{
 
 
-
-
 // };
 
 

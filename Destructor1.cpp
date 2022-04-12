@@ -49,7 +49,6 @@ class   Hero
         this->name = ch; 
 
 
-
         cout<<"Copy constructor called:"<<endl;
         this->health = copy.health;
         this->level  = copy.level;

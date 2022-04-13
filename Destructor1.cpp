@@ -9,7 +9,7 @@
 #include <string.h>
 using namespace std;
 
-class   Hero
+class Hero
 {
     //properties
     private:

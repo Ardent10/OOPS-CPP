@@ -1,6 +1,6 @@
 // Destructor is used to deallocate memory allocated to the program.
 // When the class is created the destructor is also created just like constructor.
-
+ 
 // No retrun type
 // Same class name
 //  No input parameter

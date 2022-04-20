@@ -131,7 +131,6 @@ int main(){
   
 }
 
-
 // Use of scope resolution class inside another class.
 #include<iostream>
 using namespace std;

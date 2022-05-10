@@ -29,26 +29,26 @@ class Exam:public Student{
     public:
 
     void getData(){
-        Student:getData();
-        cout<<"\nEnter the marks \n";
+        Student::getData();
+        cout<<"Enter the marks \n";
         
-        cout<<"\nMaths: ";
+        cout<<"Maths: ";
         cin>>maths;
-        cout<<"\nOOPS: ";
+        cout<<"OOPS: ";
         cin>>oops;
-        cout<<"\nComm: ";
+        cout<<"Comm: ";
         cin>>comm;
-        cout<<"\nCOA: ";
+        cout<<"COA: ";
         cin>>coa;
-        cout<<"\nTOC: ";
+        cout<<"TOC: ";
         cin>>toc;
-        cout<<"\nPhysics: ";
+        cout<<"Physics: ";
         cin>>physics;
                 
     }
 
     float getMarks(){
-        Student:putData();
+        Student::putData();
         cout<<"\nMarks of the Students are: \n";
         cout<<"\nMaths: "<<maths;
         cout<<"\nOOPS: "<<oops;
@@ -70,7 +70,7 @@ class Result: public Exam{
     public:
     
     void total(){
-       Exam:getData(); 
+       Exam::getData(); 
        result = getMarks();     
 
         if (result/600>0.333)

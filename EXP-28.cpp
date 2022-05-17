@@ -8,7 +8,7 @@ int main()
     ifstream in("sample.txt");
     getline(in,st);
     cout<<"The content in sample.txt is: "<<st;
-
+    
 
 
 return 0;

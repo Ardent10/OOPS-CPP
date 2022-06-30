@@ -10,6 +10,6 @@ int main()
     cout<<"The content in sample.txt is: "<<st;
     
 
-
+  
 return 0;
 }

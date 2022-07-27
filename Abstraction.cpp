@@ -7,7 +7,7 @@
 // Whereas encapsulation is a method to hide the data in a single 
 // entity or unit along with a method to protect information from outside.
 
-
+ 
 #include<iostream> 
 using namespace std;
 

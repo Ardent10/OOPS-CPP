@@ -9,7 +9,7 @@ class Book{
         setName(x);
     } 
 
-    void setName(string x){
+    void setName(string x){ 
         name = x;
     }
 

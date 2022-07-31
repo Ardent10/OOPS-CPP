@@ -15,7 +15,7 @@ class Hero
     private:
     int health;
     int hardness;
-    
+      
     public:
     char level;
     char *name;

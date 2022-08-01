@@ -12,7 +12,7 @@ class Basic_info{
     	cout<<"Enter your Name: ";
     	cin>>name;
     	cout<<"Enter your Roll No: ";
-    	cin>>rollNo;
+    	cin>>rollNo; 
     	cout<<"Enter your Sex: ";
     	cin>>sex;
 	}

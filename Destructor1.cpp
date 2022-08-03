@@ -12,7 +12,7 @@ using namespace std;
 class Hero
 {
     //properties
-    private:
+    private: 
     int health;
     int hardness;
       

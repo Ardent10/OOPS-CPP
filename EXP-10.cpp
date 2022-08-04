@@ -3,7 +3,7 @@ using namespace std;
 class A{
 	int objNo;
 	static int objCount;
-    
+     
 	public:
     
 	A(){

@@ -7,7 +7,7 @@ class   Hero
     //properties
     private:
     int health;
-    int hardness;
+    int hardness; 
     
     public:
     char level;

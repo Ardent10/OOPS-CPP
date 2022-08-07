@@ -12,7 +12,7 @@ class   Hero
     public:
     char level;
     char *name;
-
+ 
     Hero (){
         cout<<"Default Constructor called"<<endl;
         name  = new char[100];

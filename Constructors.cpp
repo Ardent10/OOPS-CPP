@@ -16,7 +16,7 @@ class Book{
     string getName(){
         cout<<"Name of the book is: ";
         return name;
-    }
+    } 
 
     private:
     string name;

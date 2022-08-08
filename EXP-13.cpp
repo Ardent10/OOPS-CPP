@@ -7,7 +7,7 @@ class First{
 
     public:
 
-    void getData1(){
+    void getData1(){ 
         cout<<"Enter Book No: ";
         cin>>bookNo;
         cout<<"Enter Book Name: ";

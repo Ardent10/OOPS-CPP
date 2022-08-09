@@ -12,7 +12,7 @@ class Complex{
     Complex(float r){ 
         real  = r;
         imaginary = r;
-    }
+    } 
 
     Complex(float r, float i){
         real  = r;

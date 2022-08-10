@@ -10,7 +10,7 @@ class Basic_info{
     
 	void getData1(){
     	cout<<"Enter your Name: ";
-    	cin>>name;
+    	cin>>name; 
     	cout<<"Enter your Roll No: ";
     	cin>>rollNo; 
     	cout<<"Enter your Sex: ";

@@ -8,7 +8,7 @@ class Student{
     public:
 
     void getData(){
-        cout<<"Enter Student Roll Number: ";
+        cout<<"Enter Student Roll Number: "; 
         cin>>rollNo;
         cout<<"Enter Studnet Name: ";
         cin>>name;

@@ -6,7 +6,7 @@ class List
     int x;
 
     virtual void store(){
-        x = 5;
+        x = 5; 
     };
     virtual void retrieve(){
         cout<<"In List class";

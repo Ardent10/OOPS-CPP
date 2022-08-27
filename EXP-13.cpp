@@ -12,7 +12,7 @@ class First{
         cin>>bookNo;
         cout<<"Enter Book Name: ";
         cin>>bookName;
-    }
+    } 
 
     void putData(){
         cout<<"\nBook No: "<<bookNo;

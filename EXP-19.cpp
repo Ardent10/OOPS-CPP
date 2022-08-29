@@ -5,6 +5,8 @@
 #include<stdlib.h>
 using namespace std;
 
+// This is the class
+
 class String
 {
     char *s;

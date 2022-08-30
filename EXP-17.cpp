@@ -1,6 +1,7 @@
 #include<iostream>
 #include<stdlib.h>
  
+// this keyword helps us to get the object or memory reference of that class.
 using namespace std;
 class student
 {

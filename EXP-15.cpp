@@ -9,12 +9,13 @@ class Shape{
         l1=0;
         l2=0;
     }
-
-    void get_data(){
+    
+    void get_data(){ 
         cout<<"\nEnter the lengths to compute Area: ";
         cin>>l1>>l2;
     }
-
+    
+    // Display area function
     virtual void display_area(){}
 
 };

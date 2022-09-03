@@ -2,6 +2,7 @@
 using namespace std;
 class A{
 	int objNo;
+	// static keyword is used
 	static int objCount;
      
 	public:

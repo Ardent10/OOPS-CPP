@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+//  Templating in C++ and Creating an Inline Function for Calculation the area of square
 template <class T>
 inline T Square (T a){
     T result;
@@ -16,7 +17,7 @@ int main()
     double d, r3;
 
     i = 5, f= 3.8, d= 5.67;
-
+    
     r1 = Square<int>(i);
    cout<<"Side: "<<i<<endl;
    cout<<"Area: " << r1 << endl;

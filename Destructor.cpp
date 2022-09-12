@@ -14,7 +14,7 @@ class Book {
     Book(){
         cout<<"This is constructor"<<endl;
     }
-
+    // destructor
     ~Book(){ 
         cout<<"This is Destructor"<<endl;
     }

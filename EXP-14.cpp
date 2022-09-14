@@ -6,7 +6,7 @@ class Student{
     string name;
     
     public:
-
+// Getter
     void getData(){
         cout<<"Enter Student Roll Number: "; 
         cin>>rollNo;

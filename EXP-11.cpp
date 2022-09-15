@@ -13,7 +13,7 @@ class Complex{
         real  = r;
         imaginary = r;
     } 
-
+    // Calculating the complex number
     Complex(float r, float i){
         real  = r;
         imaginary = i;

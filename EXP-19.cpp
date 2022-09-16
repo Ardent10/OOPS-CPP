@@ -92,6 +92,7 @@ int main()
         int length;
         cout<<"\n Menu\n1.String concatenation \n2.String copy \n3.String comparison \n4.Display String \n5.Display length of string \n6.Convert string to lowercase \n7.Convert string to uppercase \n8.Exit  \n";
         
+        //Input function
         cout<<"Your Input: ";
         cin>>choice;
 

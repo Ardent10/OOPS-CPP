@@ -27,7 +27,7 @@ class Greater{
             
         }
     }
-
+   // Destructor     
     ~Greater(){
         cout<<"Destructor is invoked";
     }

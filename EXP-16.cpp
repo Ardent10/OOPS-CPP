@@ -14,7 +14,7 @@ class List
 
 
 };
-
+// stack class
 class Stack:public List 
 {
     public:

@@ -14,7 +14,7 @@ class Human{
     int height;
     int weight;
 
-
+// getter
 
     int getAge(){
         return this->age;

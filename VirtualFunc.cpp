@@ -5,6 +5,7 @@ using namespace std;
 
 class Base {
    public:
+   // virtual function
     virtual void print() {
         cout << "Base Function" << endl;
     }

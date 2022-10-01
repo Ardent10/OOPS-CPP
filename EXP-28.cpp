@@ -1,7 +1,7 @@
 #include<iostream>
 #include<fstream>
 using namespace std;
-
+// File stream
 int main()
 {   
     string st;

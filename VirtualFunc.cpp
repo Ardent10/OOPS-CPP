@@ -11,6 +11,7 @@ class Base {
     }
 };
 
+// derived class for virtual function
 class Derived : public Base {
    public:
     void print() {

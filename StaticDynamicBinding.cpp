@@ -23,7 +23,7 @@
 
 
 
-// Dynamic binding:
+// Dynamic binding using all library.
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -56,10 +56,7 @@ int main()
     for (User* usrPtr:users)
     {
         usrPtr->getPermission();
-    }
-    
-
-        
+    }      
 
 return 0;
 }
